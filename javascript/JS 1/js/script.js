@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let name = prompt("Please enter your name:");
     let age = prompt("Please enter your age:");
 
-    // Проверка корректности введенных данных
+    
     while (!name || isNaN(age) || age === null || age.trim() === '') {
         if (!name) {
             name = prompt("Name cannot be empty. Please enter your name:", name);
