@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayResult(price) {
         resultContainer.innerHTML = `
             <div class="result">
-                <span>Текущая цена: ${price}</span>
+                <span>Поточна ціна: ${price}</span>
                 <button id="removeResult">X</button>
             </div>
         `;
