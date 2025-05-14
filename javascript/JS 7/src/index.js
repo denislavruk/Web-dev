@@ -43,12 +43,12 @@ function clearPageAfterTimeout(timeout) {
     }, 1000);
 }
 
-// Примеры массивов
+
 const array1 = ['hello', 'world', 'Kiev', 'Kharkiv', 'Odessa', 'Lviv'];
 const array2 = ['1', '2', '3', 'sea', 'user', 23];
 const array3 = ['nested', ['array', 'inside', 'array'], { key: 'value' }, 'another item'];
 
-// Вызов функции для рендеринга массивов на страницу
+
 const contentElement = document.getElementById('content');
 renderList(array1, contentElement);
 renderList(array2, contentElement);
