@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Функция для проверки, является ли значение целым числом
+    
     function isInteger(value) {
         return Number.isInteger(Number(value));
     }
 
-    // Функция для получения целого числа от пользователя
+    
     function getIntegerInput(promptMessage) {
         let value;
         do {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return Number(value);
     }
 
-    // Получаем от пользователя число и находим все кратные 5 числа
+    
     const userNumber = getIntegerInput("Please enter a number:");
     const multiplesOfFive = [];
 
@@ -29,13 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Sorry, no numbers");
     }
 
-    // Поиск простых чисел в диапазоне от m до n
+    
     const m = getIntegerInput("Please enter the first number (m):");
     const n = getIntegerInput("Please enter the second number (n):");
     const lowerBound = Math.min(m, n);
     const upperBound = Math.max(m, n);
 
-    // Функция для проверки, является ли число простым
+    
     function isPrime(num) {
         if (num <= 1) return false;
         for (let i = 2; i <= Math.sqrt(num); i++) {
